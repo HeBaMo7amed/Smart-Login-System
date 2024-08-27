@@ -118,9 +118,22 @@ width: 20%;
 
     .container {
         width: 80%;
-        height: 70vh;
+        height: 86vh;
 
     }
+    #userName {
+    display: flex;
+    text-align: center;
+}
+
+#welcomeImage {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 20px;
+}
     .btn{
         width: 50%; 
     }
