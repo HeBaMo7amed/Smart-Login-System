@@ -89,7 +89,7 @@ document.querySelector('.btn.btn-outline.my-3').addEventListener('click', functi
 
             localStorage.setItem('currentUserId', userId);
 
-            window.location.href = 'home.html';
+            window.location.href = 'Home.html';
         }
         reader.readAsDataURL(avatar);
     }
