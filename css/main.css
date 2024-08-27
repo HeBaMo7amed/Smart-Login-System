@@ -104,9 +104,12 @@ width: 20%;
 .error {
     border: 2px solid red;
     background-color: #ffe6e6;
-    color: red;
     
 
+}
+.error_message {
+    color: red; 
+    font-weight: bold;
 }
 
 @media screen and (max-width:800px) {
