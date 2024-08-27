@@ -123,6 +123,7 @@ width: 20%;
     }
     #userName {
     text-align: center;
+        padding-right:5px;
 }
 
 #welcomeImage {
