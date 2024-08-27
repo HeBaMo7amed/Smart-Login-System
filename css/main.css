@@ -119,11 +119,12 @@ width: 20%;
     .container {
         width: 80%;
         height: 86vh;
+        padding:30px
 
     }
     #userName {
     text-align: center;
-        padding-right:5px;
+
 }
 
 #welcomeImage {
