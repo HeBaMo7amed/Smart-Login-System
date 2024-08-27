@@ -26,7 +26,7 @@ document.querySelector('.btn.btn-outline.my-3').addEventListener('click', functi
         hasError = true;
     }
     else if (!validateUsername(username)) {
-        registrationError.textContent = 'Only English alphabet, number and an underscore Are allowed';
+        registrationError.textContent = 'Only English alphabet, number and whitespace are allowed';
         highlightError('#username');
         hasError = true;
     }
@@ -95,7 +95,7 @@ document.querySelector('.btn.btn-outline.my-3').addEventListener('click', functi
     }
 });
 function validateUsername(username) {
-    let re = /^[A-Za-z0-9_]+$/;
+    let re = /^(?:[A-Za-z]+|\b[A-Za-z]+\b\s+[A-Za-z\s]*)$/;
     return re.test(username);
 }
 
