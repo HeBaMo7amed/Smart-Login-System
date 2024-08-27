@@ -31,6 +31,9 @@ h1{
 #userName {
     display: flex;
     text-align: center;
+  justify-content: center; 
+  align-items: center;           
+
 }
 
 #welcomeImage {
@@ -119,11 +122,14 @@ width: 20%;
     .container {
         width: 80%;
         height: 86vh;
-        padding:30px;
+
 
     }
     #userName {
+        display: flex;
     text-align: center;
+  justify-content: center; 
+  align-items: center;
 
 }
 
