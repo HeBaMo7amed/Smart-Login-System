@@ -25,7 +25,7 @@ document.querySelector('.btn.btn-outline.my-2').addEventListener('click', functi
         removeErrorHighlight('#loginPassword');
 
         localStorage.setItem('currentUserId', user.id);
-        window.location.href = 'home.html';
+        window.location.href = 'Home.html';
     }
 });
 
