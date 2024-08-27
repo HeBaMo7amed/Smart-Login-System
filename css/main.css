@@ -29,13 +29,12 @@ h1{
       
 }
 #userName {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    text-align: center;
 }
 
 #welcomeImage {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
     width: 100px;
     height: 100px;
     object-fit: cover;
